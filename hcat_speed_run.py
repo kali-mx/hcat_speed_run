@@ -2,13 +2,12 @@
 
 # author: Max Ahartz
 # created: 12/01/2023
-
+# hcat_spped_run.py
 # create the data.txt file by first running hashcat -b on the system you want to benchmark.
 # Then copy and paste the screen output to the new file.
-# OR follow th user prompts to benchmark your system!
+# OR follow the user prompts to benchmark your system!
 
 import os, sys, pyfiglet, subprocess, time, threading
-
 
 class ProgressBarLoading(threading.Thread):
     def run(self):

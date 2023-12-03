@@ -15,4 +15,4 @@ For example, an 8 character password policy with upper, lower, alphanumeric and 
 - So at the prompt enter  ` password length = 8 `
   ` permutations = 67 `
 
-  <img width="1147" alt="Screen Shot 2023-12-01 at 11 03 19 PM" src="https://github.com/kali-mx/hcat_speed_run/assets/76034874/6f10185c-69bb-45ea-9ea2-de034655e736">
+<img width="982" alt="Screen Shot 2023-12-03 at 1 34 46 AM" src="https://github.com/kali-mx/hcat_speed_run/assets/76034874/a7610ec9-78a2-412a-ad72-cb5dd83b773d">

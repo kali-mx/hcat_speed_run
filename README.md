@@ -2,7 +2,7 @@
 
 Simple tool to quickly calculate time to crack | time to exhaustion based on hashcat's benchmark function.
 * Run `hashcat -b` on the rig you want to benchmark.
-* Copy-paste the output to a new file called data.txt
+* Copy-paste the output to a new file.
 * Give it the password length and permutations and it will do the math!
 * OR follow user prompts to benchmark your system!
   

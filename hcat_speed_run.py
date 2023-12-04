@@ -2,7 +2,7 @@
 
 # author: Max Ahartz
 # created: 12/01/2023
-# hcat_spped_run.py
+# hcat_speed_run.py
 # create the data.txt file by first running hashcat -b on the system you want to benchmark.
 # Then copy and paste the screen output to the new file.
 # OR follow the user prompts to benchmark your system!
@@ -13,7 +13,6 @@ class ProgressBarLoading(threading.Thread):
     def run(self):
         global stop
         global kill
-        print('Loading....  ', end='')
         sys.stdout.flush()
         i = 0
         while not stop:
@@ -97,7 +96,7 @@ def human_readable(total_variations):
         formatted_number = number[0:3] + "." + number[3]
         return formatted_number + " trillion."
     else:
-        return "Bud, it's pointless. You won't be alive to see it with today's current compute power."
+        return "Bud, it's pointless. Names for numbers this big are meaningless anyway."
 
 
 def math(hash_rate, hash_int, total_variations):
